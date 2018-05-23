@@ -1,0 +1,386 @@
+$color-red: #ff6d6d;
+$color-black: #282828;
+.caption-design {
+  color: $color-red;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  font-weight: 500;
+}
+
+.big-caption {
+  color: $color-black;
+  font: normal 34px Exo, sans-serif;
+  letter-spacing: 1.6px;
+}
+
+.dots {
+  color: $color-red;
+  letter-spacing: 1.6px;
+}
+
+.wrap-caption-design {
+  margin-bottom: 15px;
+}
+
+.wrap-note {
+  margin-top: 35px;
+  padding: 5px 13px 0 0;
+}
+
+.main-top-rgt-block {
+  background-color: #ececec;
+  //background: url(../../../dist/img/red-rectangle.jpg) no-repeat;
+  background: url(../../dist/img/red-rectangle.jpg) no-repeat;
+  background-position: 50% 13%;
+}
+
+.main-top-lft-block {
+  background-color: #ffffff;
+  padding: 67px;
+}
+
+.wrap-columns {
+  //background: url(../../../dist/img/background-items.jpg) 100% 100% no-repeat;
+  background: url(../../dist/img/background-items.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  padding: 34px 10px 118px 10px;
+
+}
+
+.column-title, .column-caption {
+  display: flex;
+  justify-content: center;
+}
+
+.column-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column-wrap-img {
+  margin-top: 91px;
+  margin-bottom: 30px;
+}
+
+.column-headline {
+  font-size: 22px;
+  font-weight: 500;
+  color: #282828;
+}
+
+.column-note {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.computer-wrap {
+  background-color: #ffffff;
+  padding: 90px 0 90px 55px;
+  background: url(../../dist/img/rectangle-mac.png) no-repeat;
+  background-position: 196% 12%;
+
+}
+
+.macbook-img {
+  width: 95%;
+}
+
+.wrap-caption-macbook {
+  margin-top: 45px;
+}
+
+.wrap-macbook {
+
+}
+
+.face-img {
+  width: 20%;
+}
+
+.wrap-about-face {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrap-face {
+  background: url(../../dist/img/background-rectangle.jpg) no-repeat;
+  background-size: cover;
+  padding: 100px 10px 20px 10px;
+
+}
+
+.name-face {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.88px;
+}
+
+.co-founder {
+  color: $color-red;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-face {
+  font-style: italic;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.66;
+  line-height: 26px;
+}
+
+.wrap-name-face {
+  margin-top: 20px;
+}
+
+.wrap-co-founder {
+  margin-bottom: 30px;
+}
+
+.company-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 70px;
+}
+
+.wrap-browser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 70px 0 70px;
+}
+
+.text-browser {
+  max-width: 650px;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 90px;
+}
+
+.browser-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap-bottom-form {
+  background-color: #323969;
+  padding: 98px 90px 60px 90px;
+}
+
+.central-elements-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.central-elements-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+
+}
+
+.btn-form {
+  width: 100%;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: $color-red;
+
+}
+
+.footer-big-caption {
+  color: #ffffff;
+  font: normal 34px Exo, sans-serif;
+  letter-spacing: 1.6px;
+}
+
+.form-input {
+  background-color: #464c77;
+}
+
+input.form-input::placeholder {
+  color: #ffffff;
+}
+
+.caption-design-wrap {
+  margin-bottom: 15px;
+}
+
+.trial-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f6f5f3;
+  letter-spacing: 0.64px;
+}
+
+.arrow-trial-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.arrow-wrap {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.trial-wrap {
+  margin-bottom: 10px;
+  margin-right: 21px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.form-note {
+  display: flex;
+  opacity: .6;
+  font-size: 16px;
+  letter-spacing: .56px;
+  font-weight: 400;
+  color: #f6f5f3;
+  justify-content: center;
+}
+
+.wrap-form-note {
+  margin-top: 50px;
+}
+
+.caption-footer {
+  font-weight: 500;
+  font-size: 22px;
+  color: #282828;
+  letter-spacing: 0.88px;
+
+}
+
+.caption-footer-item {
+  color: #282828;
+  opacity: 0.66;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.wrap-footer {
+  justify-content: center;
+  padding: 95px 90px 100px 0;
+  background: url(../../dist/img/rectangle-mac.png) no-repeat;
+  background-position: -86% 100%;
+}
+
+.input-icon {
+  background-color: $color-red;
+  color: white;
+  border: 0;
+  border-radius: 1px!important;
+}
+
+.wrap-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 22px;
+}
+
+.wrap-icons a i {
+  color: #cccccc;
+}
+.wrap-icons a i:hover{
+  color: #676767;;
+}
+
+.caption-footer-color {
+  color: #ffffff;
+}
+
+.caption-footer-wrap {
+  margin-bottom: 23px;
+}
+
+.wrap-footer-form {
+  margin-bottom: 30px;
+  margin-right: 26px;
+}
+.form-footer-email{
+  border-right: 0;
+}
+.input-icon{
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.3);
+}
+
+@include media-breakpoint-between(xs, lg) {
+  .wrap-about-face{
+    margin-bottom: 40px;
+  }
+}
+@include media-breakpoint-between(xs, md) {
+  .company-wrap {
+    padding: 40px 0;
+    flex-direction: column;
+  }
+  .company-wrap div {
+    margin-bottom: 35px;
+  }
+  .wrap-caption-header {
+    padding: 20px 0 0 0;
+  }
+  .main-header {
+    height: 500px;
+  }
+  .wrap-bottom-form{
+    padding: 60px 30px 60px 30px;
+  }
+}
+
+@include media-breakpoint-between(xs, sm) {
+  .wrap-caption-header {
+    padding: 20px 0 0 0;
+  }
+  .wrap-caption-header h1 {
+    font-size: 40px;
+  }
+  .main-header {
+    height: 500px;
+  }
+  .wrap-footer {
+    padding: 70px 30px 60px 30px;
+  }
+  .form-note {
+    display: block;
+  }
+  .wrap-face div.wrap-about-face {
+    margin-bottom: 40px;
+  }
+  .column-caption, .column-title {
+    text-align: center;
+  }
+  .big-caption{
+    font-size: 30px;
+    text-align: center;
+  }
+  .wrap-browser{
+    padding: 30px 20px;
+  }
+  .caption-footer-wrap{
+    margin-top: 20px;
+  }
+  .wrap-bottom-form{
+    padding: 70px 60px 60px 60px;;
+  }
+  .computer-wrap{
+    padding: 30px 30px;
+  }
+  .main-top-lft-block{
+    padding: 45px;
+  }
+}
